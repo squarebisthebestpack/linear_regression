@@ -8,7 +8,7 @@ def num ():
     for i in range(1, 51):
         coef = i*i + 5
         #print(i, ', ', random.randint(i, coef))
-        arr.append(coef)
+        arr.append((i, coef))
 
 num()
 
